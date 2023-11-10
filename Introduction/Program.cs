@@ -17,6 +17,7 @@ Console.WriteLine($"Dynamic var: {dynamicVar}");
 // const
 const double PI = 3.1415;
 Console.WriteLine($"PI: {PI}");
+
 #endregion
 
 #region STRINGS
