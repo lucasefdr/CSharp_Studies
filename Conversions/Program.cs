@@ -19,6 +19,8 @@ string telephone = "55 11 987765544";
 phone = telephone;
 
 Console.WriteLine(phone);
+
+/* Records */
 record Temperature
 {
     public double Celsius { get; set; }
