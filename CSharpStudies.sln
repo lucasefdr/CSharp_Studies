@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HttpClient", "HttpClient\Ht
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conversions", "Conversions\Conversions.csproj", "{EEDD7D6E-E1C6-4C9B-92A0-E207672DD933}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOLID", "SOLID\SOLID.csproj", "{FDDBBCB0-B8EE-481F-947A-248ADE08D810}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{EEDD7D6E-E1C6-4C9B-92A0-E207672DD933}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EEDD7D6E-E1C6-4C9B-92A0-E207672DD933}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EEDD7D6E-E1C6-4C9B-92A0-E207672DD933}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDDBBCB0-B8EE-481F-947A-248ADE08D810}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDDBBCB0-B8EE-481F-947A-248ADE08D810}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDDBBCB0-B8EE-481F-947A-248ADE08D810}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDDBBCB0-B8EE-481F-947A-248ADE08D810}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
