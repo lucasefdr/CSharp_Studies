@@ -32,6 +32,19 @@ multicastCalculator.GetInvocationList().ToList().ForEach(x =>
     Console.WriteLine("Result: {0}", x.DynamicInvoke(10, 20));
 });
 
+// Generic delegate
+CalculatorDelegateGeneric<double, double, double> genericCalculatorDouble = (a, b) => a + b;
+result = genericCalculatorDouble(10.77, 20.25);
+Console.WriteLine("Double sum: {0}", result);
+
+CalculatorDelegateGeneric<int, int, int> genericCalculatorInt = (a, b) => a + b;
+result = genericCalculatorInt(1550, 200);
+Console.WriteLine("Int sum: {0}", result);
+
+
+
+// Generic delegate
+delegate TResult CalculatorDelegateGeneric<in T1, in T2, out TResult>(T1 a, T2 b);
 
 // Delegate declaration
 delegate double Calculator(double a, double b);
