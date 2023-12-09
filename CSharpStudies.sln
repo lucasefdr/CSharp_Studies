@@ -21,6 +21,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Parse", "Parse\Parse.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DIWebApp", "DIWebApp\DIWebApp.csproj", "{A3129B08-70AB-43A1-87F6-09AE882D9208}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegates", "Delegates\Delegates.csproj", "{2724ECDC-7E74-4D9C-BB5B-88D20C292EA8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{A3129B08-70AB-43A1-87F6-09AE882D9208}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A3129B08-70AB-43A1-87F6-09AE882D9208}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A3129B08-70AB-43A1-87F6-09AE882D9208}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2724ECDC-7E74-4D9C-BB5B-88D20C292EA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2724ECDC-7E74-4D9C-BB5B-88D20C292EA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2724ECDC-7E74-4D9C-BB5B-88D20C292EA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2724ECDC-7E74-4D9C-BB5B-88D20C292EA8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
