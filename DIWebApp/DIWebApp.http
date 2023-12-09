@@ -1,0 +1,6 @@
+@DIWebApp_HostAddress = http://localhost:5143
+
+GET {{DIWebApp_HostAddress}}/DI
+Accept: application/json
+
+###
