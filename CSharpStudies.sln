@@ -25,6 +25,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegates", "Delegates\Dele
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Func", "Func\Func.csproj", "{0D6073CE-3AD8-4990-9B32-8E329C67A52A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LambdaExpressions", "LambdaExpressions\LambdaExpressions.csproj", "{AFFAD512-4CC5-401E-845A-3C51D362C48B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode", "LeetCode\LeetCode.csproj", "{9FEEEE4A-FC0F-46A3-9ACB-6B76E0FF90EC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +79,14 @@ Global
 		{0D6073CE-3AD8-4990-9B32-8E329C67A52A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D6073CE-3AD8-4990-9B32-8E329C67A52A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D6073CE-3AD8-4990-9B32-8E329C67A52A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFFAD512-4CC5-401E-845A-3C51D362C48B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFFAD512-4CC5-401E-845A-3C51D362C48B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFFAD512-4CC5-401E-845A-3C51D362C48B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFFAD512-4CC5-401E-845A-3C51D362C48B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9FEEEE4A-FC0F-46A3-9ACB-6B76E0FF90EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FEEEE4A-FC0F-46A3-9ACB-6B76E0FF90EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FEEEE4A-FC0F-46A3-9ACB-6B76E0FF90EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FEEEE4A-FC0F-46A3-9ACB-6B76E0FF90EC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
