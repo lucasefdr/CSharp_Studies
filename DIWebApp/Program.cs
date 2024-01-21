@@ -1,6 +1,8 @@
 using DIWebApp;
 
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddControllers();
+
 
 // Injecting dependencies
 builder.Services.AddScoped<IMessenger, Messenger>();
@@ -10,5 +12,5 @@ var app = builder.Build();
 
 app.MapGet("/DI", (IMessenger messenger) => messenger.SendMessage("Hello, World! Training DI in web apps."));
 
-// Configure the HTTP request pipeline.
+app.MapControllers();
 app.Run();
