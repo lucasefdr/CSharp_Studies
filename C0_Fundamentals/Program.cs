@@ -1,3 +1,3 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using C0_Fundamentals.Enums;
 
-Console.WriteLine("Hello, World!");
+EnumStudies.Run();
