@@ -1,4 +1,4 @@
-namespace C0_Fundamentals.Switch;
+namespace C00_Fundamentals.Switch;
 
 public class SwitchPatternMatching
 {

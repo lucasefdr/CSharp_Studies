@@ -1,6 +1,6 @@
 using System.Runtime.Serialization;
 
-namespace C0_Fundamentals.Enums;
+namespace C00_Fundamentals.Enums;
 
 [Flags] // Obrigatório para o C# tratar como combinação
 public enum Permissoes

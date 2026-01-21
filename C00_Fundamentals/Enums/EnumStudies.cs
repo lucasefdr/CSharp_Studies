@@ -1,6 +1,6 @@
 using System.Globalization;
 
-namespace C0_Fundamentals.Enums;
+namespace C00_Fundamentals.Enums;
 
 public class EnumStudies
 {

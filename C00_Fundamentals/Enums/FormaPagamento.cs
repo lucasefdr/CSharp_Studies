@@ -1,4 +1,4 @@
-namespace C0_Fundamentals.Enums;
+namespace C00_Fundamentals.Enums;
 
 // Sempre definir um tipo para otimização de memória
 public enum FormaPagamento : byte 
